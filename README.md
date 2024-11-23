@@ -2,20 +2,11 @@
 
 Welcome to my GitHub profile! I'm a FrontEnd Dev passionate about Cyber Security. Here's a little bit about me:
 
-- 🔭 I’m currently working on Decentralized Identitites
-- 🌱 I’m currently learning Web3
-- 👯 I’m looking to collaborate on Web3 and FrontEnd
+- 🔭 I’m currently working on Generative AI
+- 🌱 I’m currently learning LLMs
+- 👯 I’m looking to collaborate on AI
 - 💬 Ask me about React, TypeScript, Solidity
-- ⚡ Fun fact: Humour me with Dark Jokes
 
-## Today's Developer Quotes
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&border=false)](https://github.com/piyushsuthar/github-readme-quotes)
-
-## Connect with me:
-
-- [LinkedIn](link)
-- [Twitter](link)
 
 ## &#x1f4c8; GitHub Stats
 
