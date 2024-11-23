@@ -17,11 +17,6 @@ Welcome to my GitHub profile! I'm a FrontEnd Dev passionate about Cyber Security
 - [LinkedIn](link)
 - [Twitter](link)
 
-## Avid Music Listener
-## Spotify Now Playing
-
-![Spotify Profile](https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31pnskc7ccqgvt7eferoax7geciq&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=false&bar_color=33b12f&bar_color_cover=true)
-
 ## &#x1f4c8; GitHub Stats
 
 <a href="https://github.com/HeathKnowles/HeathKnowles">
