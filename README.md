@@ -3,7 +3,6 @@
 Welcome to my GitHub profile! I'm a FrontEnd Dev passionate about Cyber Security. Here's a little bit about me:
 
 - 🔭 I’m currently working on Generative AI
-- 🌱 I’m currently learning LLMs
 - 👯 I’m looking to collaborate on AI
 - 💬 Ask me about React, TypeScript, Solidity
 
