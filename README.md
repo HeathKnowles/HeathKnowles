@@ -1,15 +1,74 @@
-# Hi there, I'm [Yash Yashuday] 👋
-
-Welcome to my GitHub profile! I'm a FrontEnd Dev passionate about Cyber Security. Here's a little bit about me:
-
-- 🔭 I’m currently working on Generative AI
-- 👯 I’m looking to collaborate on AI
-- 💬 Ask me about React, TypeScript, Solidity
-
-
-## 📊 GitHub Stats
+<h1 align="center">👋 Hey, I’m Yash Yashuday (aka HeathKnowles)</h1>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" alt="HeathKnowles's GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=vue-dark&hide_border=true" alt="Top Languages" />
+  🚀 Frontend Developer | 🔐 Cybersecurity Enthusiast | 🤖 AI + Web3 Explorer
+</p>
+
+<p align="center">
+  I love building things, breaking them to learn, and shipping projects that matter.
+</p>
+
+## 🛠️ About Me
+🔹 Backend development with **TypeScript** and **Python**  
+🔹 Learning **Rust** for **Solana**  
+🔹 Ask me about **Django, React, or Vue**  
+🔹 **CTFs** and security challenges are for fun  
+
+
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</p>
+
+## 👀 Streaks
+
+<p align="center"> <img height="170em" src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" /> <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" /> </p>
+
+## 📈 Contribution Graph  
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HeathKnowles&theme=redical&hide_border=true&area=true" alt="Contribution Graph" />
+</p>
+
+## 🏆 GitHub Trophies  
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=HeathKnowles&theme=radical&no-frame=true&column=6&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</p>
+
+## 🔧 Tech Stack  
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="50px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50px" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" width="50px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="50px" alt="Rust" />
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="50px" />
+  <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ChromaDB-4A90E2?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Generative_AI-FF6F00?style=for-the-badge&logo=openai&logoColor=white"/>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nixos/nixos-original.svg" width="50px" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="50px" />
+
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Logging-FF9800?style=for-the-badge&logo=elasticstack&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Monitoring-009688?style=for-the-badge&logo=grafana&logoColor=white"/>
+</p>
+
+## 🌐 Let’s Connect  
+
+<p align="center">
+  <a href="https://linkedin.com/in/yyashuday" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://x.com/53n731l" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
 </p>
