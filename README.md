@@ -14,23 +14,15 @@
 🔹 Ask me about **Django, React, or Vue**  
 🔹 **CTFs** and security challenges are for fun  
 
-
-## 📊 GitHub Stats  
+## 📊 GitHub Stats and Streaks 
 
 <p align="center">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
-## 👀 Streaks
+<p align="center"> <!-- GitHub Streak --> <img src="https://github-readme-streak-stats.herokuapp.com/?user=HeathKnowles&theme=radical" alt="GitHub Streak" /> </p>
 
-<p align="center"> <img height="170em" src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" /> <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" /> </p>
-
-## 📈 Contribution Graph  
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HeathKnowles&theme=redical&hide_border=true&area=true" alt="Contribution Graph" />
-</p>
 
 ## 🏆 GitHub Trophies  
 
