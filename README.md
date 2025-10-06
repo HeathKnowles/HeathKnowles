@@ -17,8 +17,8 @@
 ## 📊 GitHub Stats and Streaks 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&show_icons=true&theme=radical&hide_border=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HeathKnowles&theme=radical&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="250em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center"> <!-- GitHub Streak --> <img src="https://github-readme-streak-stats.herokuapp.com/?user=HeathKnowles&theme=radical" alt="GitHub Streak" /> </p>
