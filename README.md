@@ -30,6 +30,16 @@
   <img src="https://github-profile-trophy.vercel.app/?username=HeathKnowles&theme=radical&no-frame=true&column=6&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </p>
 
+## Holopin
+
+<a href="https://holopin.io/@heathknowles" target="_blank">
+  <img src="https://holopin.me/heathknowles" 
+       alt="@heathknowles's Holopin badges" 
+       width="400" 
+       style="border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+</a>
+
+
 ## 🔧 Tech Stack  
 
 <p align="center">
