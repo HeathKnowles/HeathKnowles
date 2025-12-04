@@ -11,19 +11,6 @@
 ## 🛠️ About Me
 I am Yash Yashuday. I love working to the Low Level - the bits and the memory, remembering everything in UNIX is a file
 
-## Top Langs
-
-<p align="center">
-  <img height="250em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
-
-
-## GitHub Trophies  
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HeathKnowles&theme=radical&no-frame=true&column=6&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</p>
-
 ## Holopin
 
 <a href="https://holopin.io/@heathknowles" target="_blank">
