@@ -9,7 +9,8 @@
 </p>
 
 ## 🛠️ About Me
-I am Yash Yashuday. I love working to the Low Level - the bits and the memory, remembering everything in UNIX is a file
+I am Yash Yashuday. I love working to the Low Level - the bits and the memory, remembering everything in UNIX is a file.
+Builiding Crazy Pages - Check them out on my GitHub
 
 ## Holopin
 
