@@ -1,58 +1,67 @@
-<h1 align="center">👋 Hey, I’m Yash Yashuday (aka HeathKnowles)</h1>
+<h1 align="center">Yash Yashuday <code>// HeathKnowles</code></h1>
 
 <p align="center">
-  Backend Dev 
+  <em>Full-Stack Engineer · Backend Heavy</em>
 </p>
 
 <p align="center">
-  I love building things, breaking them to learn, and shipping projects that matter.
+  I build end-to-end systems — from the browser to the bare metal.<br>
+  Fascinated by low-level computing, systems design, and shipping products that actually matter.<br>
+  <strong>⌨️ Currently building:</strong> <a href="https://github.com/HeathKnowles/peek"><code>Peek</code></a> - Web extension to Peek Into Anything
 </p>
 
-## 🛠️ About Me
-I am Yash Yashuday. I love working to the Low Level - the bits and the memory, remembering everything in UNIX is a file.
-Builiding Crazy Pages - Check them out on my GitHub
+<p align="center">
+  <a href="https://linkedin.com/in/yash-yashuday">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="https://x.com/0xheathknowles">
+    <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/HeathKnowles">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
-## Holopin
+## About Me
 
-<a href="https://holopin.io/@heathknowles" target="_blank">
-  <img src="https://holopin.me/heathknowles" 
-       alt="@heathknowles's Holopin badges" 
-       width="400" 
-       style="border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+| Aspect | Details |
+|--------|---------|
+| **Specialty** | Full-stack · Backend systems |
+| **Philosophy** | Everything that matters is me, myself. |
+| **Currently building** | [Peek Web Extension](https://github.com/HeathKnowles/peek) |
+| **Interests** | Linux, Low-level computing |
+| **Hobbies** | Reading Books, Football |
+
+## Tech Stack
+
+
+## GitHub Stats
+
+<div align="center">
+
+[![HeathKnowles's GitHub stats](https://github-readme-stats.vercel.app/api?username=HeathKnowles&show_icons=true&theme=github_dark&hide_border=true&count_private=true)](https://github.com/HeathKnowles)
+&nbsp; &nbsp;
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HeathKnowles&layout=compact&theme=github_dark&hide_border=true)](https://github.com/HeathKnowles)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HeathKnowles&theme=github-dark)](https://github.com/HeathKnowles)
+&nbsp; &nbsp;
+[![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=HeathKnowles&theme=onedark)](https://github.com/HeathKnowles)
+
+</div>
+
+## My Contributions
+
+<a href="https://github.com/HeathKnowles">
+  <img align="left" src="https://github-readme-activity-graph.vercel.app/graph?username=HeathKnowles&theme=github-compact&hide_border=true" alt="Contribution Graph"/>
 </a>
 
 
-## Tech Stack  
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=HeathKnowles&style=flat-square&color=blue" alt="Visitor Count"/>
+</div>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50px" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="50px" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="50px" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" width="50px" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="50px" alt="Rust" />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50px" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="50px" />
-  <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ChromaDB-4A90E2?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Generative_AI-FF6F00?style=for-the-badge&logo=openai&logoColor=white"/>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nixos/nixos-original.svg" width="50px" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="50px" />
-
-  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Logging-FF9800?style=for-the-badge&logo=elasticstack&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Monitoring-009688?style=for-the-badge&logo=grafana&logoColor=white"/>
-</p>
-
-## Let’s Connect  
-
-<p align="center">
-  <a href="https://linkedin.com/in/yyashuday" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://x.com/53n731l" target="_blank">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-  </a>
+  <sub><strong>Building in public · From bits to browsers</strong></sub>
 </p>
