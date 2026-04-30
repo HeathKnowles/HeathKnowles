@@ -7,7 +7,6 @@
 <p align="center">
   I build end-to-end systems — from the browser to the bare metal.<br>
   Fascinated by low-level computing, systems design, and shipping products that actually matter.<br>
-  <strong>⌨️ Currently building:</strong> <a href="https://github.com/HeathKnowles/peek"><code>Peek</code></a> - Web extension to Peek Into Anything
 </p>
 
 <p align="center">
@@ -17,10 +16,6 @@
   &nbsp;
   <a href="https://x.com/0xheathknowles">
     <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X (Twitter)"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/HeathKnowles">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
@@ -35,7 +30,7 @@
 | **Hobbies** | Reading Books, Football |
 
 ## Tech Stack
-
+![Tech Stack](assets/github_techstack.svg)
 
 ## GitHub Stats
 
