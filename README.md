@@ -31,6 +31,7 @@
 
 ## Tech Stack
 ![Tech Stack](assets/github_techstack.svg)
+![Tech Wordcloud](assets/image.svg)
 
 ## GitHub Stats
 
