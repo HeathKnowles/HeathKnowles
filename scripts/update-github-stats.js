@@ -16,7 +16,9 @@ async function graphqlRequest(query, variables, token) {
 
   if (!response.ok) {
     const errorText = await response.text();
-    throw new Error(`GitHub GraphQL request failed (${response.status}): ${errorText}`);
+    throw new Error(
+      `GitHub GraphQL request failed (${response.status}): ${errorText}`,
+    );
   }
 
   const payload = await response.json();
@@ -25,6 +27,25 @@ async function graphqlRequest(query, variables, token) {
   }
 
   return payload.data;
+}
+
+// Splits a date range into chunks of at most 1 year
+function buildYearlyRanges(from, to) {
+  const ranges = [];
+  let start = new Date(from);
+  const end = new Date(to);
+
+  while (start < end) {
+    const next = new Date(start);
+    next.setFullYear(next.getFullYear() + 1);
+    ranges.push({
+      from: start.toISOString(),
+      to: (next < end ? next : end).toISOString(),
+    });
+    start = next;
+  }
+
+  return ranges;
 }
 
 function calculateStreaks(days) {
@@ -40,7 +61,9 @@ function calculateStreaks(days) {
     }
   }
 
-  const lastActiveIndex = days.map((d) => d.contributionCount > 0).lastIndexOf(true);
+  const lastActiveIndex = days
+    .map((d) => d.contributionCount > 0)
+    .lastIndexOf(true);
   if (lastActiveIndex === -1) {
     return { current: 0, longest };
   }
@@ -48,7 +71,11 @@ function calculateStreaks(days) {
   const lastActiveDate = new Date(`${days[lastActiveIndex].date}T00:00:00Z`);
   const todayUtc = new Date();
   const todayDateOnly = new Date(
-    Date.UTC(todayUtc.getUTCFullYear(), todayUtc.getUTCMonth(), todayUtc.getUTCDate())
+    Date.UTC(
+      todayUtc.getUTCFullYear(),
+      todayUtc.getUTCMonth(),
+      todayUtc.getUTCDate(),
+    ),
   );
   const diffDays = Math.floor((todayDateOnly - lastActiveDate) / 86400000);
 
@@ -78,15 +105,14 @@ function replaceStatValue(svg, id, value) {
 
 async function main() {
   const token = process.env.GITHUB_TOKEN;
-  const username = process.env.GITHUB_USERNAME || process.env.GITHUB_REPOSITORY_OWNER;
+  const username =
+    process.env.GITHUB_USERNAME || process.env.GITHUB_REPOSITORY_OWNER;
 
-  if (!token) {
-    throw new Error("GITHUB_TOKEN is required");
-  }
-  if (!username) {
+  if (!token) throw new Error("GITHUB_TOKEN is required");
+  if (!username)
     throw new Error("GITHUB_USERNAME or GITHUB_REPOSITORY_OWNER is required");
-  }
 
+  // 1. Fetch the account creation date
   const userQuery = `
     query($login: String!) {
       user(login: $login) {
@@ -96,11 +122,12 @@ async function main() {
   `;
   const userData = await graphqlRequest(userQuery, { login: username }, token);
   const createdAt = userData.user?.createdAt;
-  if (!createdAt) {
+  if (!createdAt)
     throw new Error(`Could not resolve GitHub user "${username}"`);
-  }
 
-  const now = new Date().toISOString();
+  // 2. Build yearly ranges so we never exceed the 1-year API limit
+  const ranges = buildYearlyRanges(createdAt, new Date().toISOString());
+
   const statsQuery = `
     query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
@@ -119,22 +146,38 @@ async function main() {
     }
   `;
 
-  const statsData = await graphqlRequest(
-    statsQuery,
-    { login: username, from: createdAt, to: now },
-    token
-  );
+  // 3. Fetch each chunk and accumulate results
+  let totalCommits = 0;
+  const allDays = [];
 
-  const collection = statsData.user?.contributionsCollection;
-  if (!collection) {
-    throw new Error(`Could not load contribution data for "${username}"`);
+  for (const range of ranges) {
+    const data = await graphqlRequest(
+      statsQuery,
+      { login: username, from: range.from, to: range.to },
+      token,
+    );
+
+    const collection = data.user?.contributionsCollection;
+    if (!collection) {
+      throw new Error(
+        `Could not load contribution data for "${username}" (range: ${range.from})`,
+      );
+    }
+
+    totalCommits += collection.totalCommitContributions;
+    const chunkDays = collection.contributionCalendar.weeks.flatMap(
+      (w) => w.contributionDays,
+    );
+    allDays.push(...chunkDays);
   }
 
-  const days = collection.contributionCalendar.weeks.flatMap((week) => week.contributionDays);
-  const { current, longest } = calculateStreaks(days);
-  const commits = collection.totalCommitContributions;
-  const formattedCommits = new Intl.NumberFormat("en-US").format(commits);
+  // 4. Sort days chronologically before computing streaks
+  allDays.sort((a, b) => (a.date < b.date ? -1 : 1));
 
+  const { current, longest } = calculateStreaks(allDays);
+  const formattedCommits = new Intl.NumberFormat("en-US").format(totalCommits);
+
+  // 5. Write stats into the SVG
   let svg = await fs.readFile(SVG_PATH, "utf8");
   svg = replaceStatValue(svg, "stats-commits", formattedCommits);
   svg = replaceStatValue(svg, "stats-streak", String(current));
@@ -142,7 +185,7 @@ async function main() {
   await fs.writeFile(SVG_PATH, svg, "utf8");
 
   console.log(
-    `Updated stats for ${username}: commits=${formattedCommits}, streak=${current}, longest=${longest}`
+    `Updated stats for ${username}: commits=${formattedCommits}, streak=${current}, longest=${longest}`,
   );
 }
 
