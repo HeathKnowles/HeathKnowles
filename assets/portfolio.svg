@@ -1,0 +1,269 @@
+<svg width="100%" height="1080" viewBox="0 0 980 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      * { font-family: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', monospace; }
+    </style>
+    <clipPath id="clip-root">
+      <rect width="980" height="1080" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Root bg -->
+  <rect width="980" height="1080" rx="16" fill="#242424"/>
+
+  <!-- Grid -->
+  <g clip-path="url(#clip-root)" stroke="#ffffff" stroke-opacity="0.07" stroke-width="0.5">
+    <!-- verticals -->
+    <line x1="98"  y1="0" x2="98"  y2="1080"/>
+    <line x1="196" y1="0" x2="196" y2="1080"/>
+    <line x1="294" y1="0" x2="294" y2="1080"/>
+    <line x1="392" y1="0" x2="392" y2="1080"/>
+    <line x1="490" y1="0" x2="490" y2="1080"/>
+    <line x1="588" y1="0" x2="588" y2="1080"/>
+    <line x1="686" y1="0" x2="686" y2="1080"/>
+    <line x1="784" y1="0" x2="784" y2="1080"/>
+    <line x1="882" y1="0" x2="882" y2="1080"/>
+    <!-- horizontals -->
+    <line x1="0" y1="108" x2="980" y2="108"/>
+    <line x1="0" y1="216" x2="980" y2="216"/>
+    <line x1="0" y1="324" x2="980" y2="324"/>
+    <line x1="0" y1="432" x2="980" y2="432"/>
+    <line x1="0" y1="540" x2="980" y2="540"/>
+    <line x1="0" y1="648" x2="980" y2="648"/>
+    <line x1="0" y1="756" x2="980" y2="756"/>
+    <line x1="0" y1="864" x2="980" y2="864"/>
+    <line x1="0" y1="972" x2="980" y2="972"/>
+  </g>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- HEADER: avatar + name + links          -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Avatar circle -->
+  <circle cx="98" cy="96" r="52" fill="#2e2e2e" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="98" y="104" text-anchor="middle" fill="#e0e0e0" font-size="22" font-weight="600">YY</text>
+  <!-- Online dot -->
+  <circle cx="138" cy="136" r="7" fill="#1c1c1e"/>
+  <circle cx="138" cy="136" r="5" fill="#4ade80"/>
+
+  <!-- Name -->
+  <text x="172" y="72" fill="#f0f0f0" font-size="28" font-weight="700">Yash Yashuday</text>
+  <!-- Handle -->
+  <text x="172" y="100" fill="#777" font-size="15">//  HeathKnowles</text>
+  <!-- Tagline -->
+  <text x="172" y="128" fill="#888" font-size="13" font-style="italic">Full-Stack Engineer · Backend Heavy</text>
+  <text x="172" y="147" fill="#888" font-size="13" font-style="italic">From bits to browsers.</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ABOUT SECTION                          -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="46" y="232" fill="#555" font-size="11" letter-spacing="2">// ABOUT</text>
+
+  <!-- Card: SPECIALTY -->
+  <rect x="46" y="248" width="425" height="82" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="66" y="272" fill="#555" font-size="10" letter-spacing="1.5">SPECIALTY</text>
+  <text x="66" y="298" fill="#d4d4d4" font-size="15" font-weight="500">Full-stack · Backend systems</text>
+
+  <!-- Card: INTERESTS -->
+  <rect x="487" y="248" width="447" height="82" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="507" y="272" fill="#555" font-size="10" letter-spacing="1.5">INTERESTS</text>
+  <text x="507" y="298" fill="#d4d4d4" font-size="15" font-weight="500">Linux · Low-level computing</text>
+
+  <!-- Card: HOBBIES -->
+  <rect x="46" y="344" width="425" height="82" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="66" y="368" fill="#555" font-size="10" letter-spacing="1.5">HOBBIES</text>
+  <text x="66" y="394" fill="#d4d4d4" font-size="15" font-weight="500">Reading books · Football</text>
+
+  <!-- Card: PHILOSOPHY -->
+  <rect x="487" y="344" width="447" height="82" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="507" y="368" fill="#555" font-size="10" letter-spacing="1.5">PHILOSOPHY</text>
+  <text x="507" y="394" fill="#d4d4d4" font-size="15" font-weight="500">Ship things that actually matter.</text>
+
+  <!-- Currently building pill -->
+  <rect x="46" y="444" width="302" height="32" rx="7" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <circle cx="66" cy="460" r="5" fill="#4ade80"/>
+  <text x="80" y="465" fill="#999" font-size="12">currently building → Peek Web Extension</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- TECH STACK                             -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="46" y="514" fill="#555" font-size="11" letter-spacing="2">// TECH STACK</text>
+
+  <!-- Row 1 chips -->
+  <!-- Node.js - amber -->
+  <rect x="46"  y="528" width="74" height="30" rx="6" fill="#2a1f0a" stroke="#c8800a" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="83"  y="548" text-anchor="middle" fill="#d4900f" font-size="12">Node.js</text>
+
+  <!-- Go - amber -->
+  <rect x="128" y="528" width="48" height="30" rx="6" fill="#2a1f0a" stroke="#c8800a" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="152" y="548" text-anchor="middle" fill="#d4900f" font-size="12">Go</text>
+
+  <!-- Rust - amber -->
+  <rect x="184" y="528" width="54" height="30" rx="6" fill="#2a1f0a" stroke="#c8800a" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="211" y="548" text-anchor="middle" fill="#d4900f" font-size="12">Rust</text>
+
+  <!-- React - teal -->
+  <rect x="246" y="528" width="60" height="30" rx="6" fill="#0a201a" stroke="#1a9e6e" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="276" y="548" text-anchor="middle" fill="#1fba80" font-size="12">React</text>
+
+  <!-- TypeScript - teal -->
+  <rect x="314" y="528" width="98" height="30" rx="6" fill="#0a201a" stroke="#1a9e6e" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="363" y="548" text-anchor="middle" fill="#1fba80" font-size="12">TypeScript</text>
+
+  <!-- Next.js - teal -->
+  <rect x="420" y="528" width="70" height="30" rx="6" fill="#0a201a" stroke="#1a9e6e" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="455" y="548" text-anchor="middle" fill="#1fba80" font-size="12">Next.js</text>
+
+  <!-- PostgreSQL - coral -->
+  <rect x="498" y="528" width="100" height="30" rx="6" fill="#251210" stroke="#b84030" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="548" y="548" text-anchor="middle" fill="#d45040" font-size="12">PostgreSQL</text>
+
+  <!-- Redis - coral -->
+  <rect x="606" y="528" width="60" height="30" rx="6" fill="#251210" stroke="#b84030" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="636" y="548" text-anchor="middle" fill="#d45040" font-size="12">Redis</text>
+
+  <!-- Linux - purple -->
+  <rect x="674" y="528" width="60" height="30" rx="6" fill="#1a1025" stroke="#7060c0" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="704" y="548" text-anchor="middle" fill="#9080d8" font-size="12">Linux</text>
+
+  <!-- Row 2 chips -->
+  <!-- C/C++ - purple -->
+  <rect x="46"  y="568" width="72" height="30" rx="6" fill="#1a1025" stroke="#7060c0" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="82"  y="588" text-anchor="middle" fill="#9080d8" font-size="12">C / C++</text>
+
+  <!-- Assembly - purple -->
+  <rect x="126" y="568" width="84" height="30" rx="6" fill="#1a1025" stroke="#7060c0" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="168" y="588" text-anchor="middle" fill="#9080d8" font-size="12">Assembly</text>
+
+  <!-- Docker - blue -->
+  <rect x="218" y="568" width="68" height="30" rx="6" fill="#0a1525" stroke="#2060a0" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="252" y="588" text-anchor="middle" fill="#4090d0" font-size="12">Docker</text>
+
+  <!-- Kubernetes - blue -->
+  <rect x="294" y="568" width="100" height="30" rx="6" fill="#0a1525" stroke="#2060a0" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="344" y="588" text-anchor="middle" fill="#4090d0" font-size="12">Kubernetes</text>
+
+  <!-- Git - blue -->
+  <rect x="402" y="568" width="50" height="30" rx="6" fill="#0a1525" stroke="#2060a0" stroke-opacity="0.6" stroke-width="0.75"/>
+  <text x="427" y="588" text-anchor="middle" fill="#4090d0" font-size="12">Git</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- GITHUB STATS                           -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="46" y="636" fill="#555" font-size="11" letter-spacing="2">// GITHUB STATS</text>
+
+  <!-- Stat card 1: commits -->
+  <rect x="46"  y="652" width="278" height="90" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="185" y="706" text-anchor="middle" fill="#e0e0e0" font-size="32" font-weight="700">∞</text>
+  <text x="185" y="728" text-anchor="middle" fill="#555" font-size="10" letter-spacing="2">COMMITS</text>
+
+  <!-- Stat card 2: OSS -->
+  <rect x="340" y="652" width="278" height="90" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="479" y="706" text-anchor="middle" fill="#e0e0e0" font-size="32" font-weight="700">OSS</text>
+  <text x="479" y="728" text-anchor="middle" fill="#555" font-size="10" letter-spacing="2">BUILDING IN PUBLIC</text>
+
+  <!-- Stat card 3: 24/7 -->
+  <rect x="634" y="652" width="278" height="90" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
+  <text x="773" y="706" text-anchor="middle" fill="#e0e0e0" font-size="32" font-weight="700">24/7</text>
+  <text x="773" y="728" text-anchor="middle" fill="#555" font-size="10" letter-spacing="2">SHIPPING</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ARCH FASTFETCH SECTION                 -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="46" y="778" fill="#555" font-size="11" letter-spacing="2">// SYSTEM</text>
+
+  <!-- System card bg -->
+  <rect x="46" y="794" width="888" height="244" rx="8" fill="#1e1e1e" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.75"/>
+
+  <!-- Arch logo inside card -->
+  <g transform="translate(70, 820)">
+    <polygon points="22,165 52,58 62,58 32,165" fill="#1793d1" fill-opacity="0.9"/>
+    <polygon points="82,165 52,58 62,58 92,165" fill="#1793d1" fill-opacity="0.9"/>
+    <polygon points="38,140 52,95 62,95 76,140" fill="#1e1e1e"/>
+    <rect x="32" y="128" width="54" height="11" fill="#1e1e1e"/>
+  </g>
+
+  <!-- hostname -->
+  <text x="196" y="842" fill="#1793d1" font-size="13" font-weight="500">heathknowles</text>
+  <text x="320" y="842" fill="#444" font-size="13">@</text>
+  <text x="334" y="842" fill="#ccc" font-size="13" font-weight="500">NightX</text>
+  <line x1="196" y1="852" x2="900" y2="852" stroke="#1793d1" stroke-opacity="0.15" stroke-width="0.5"/>
+
+  <!-- Info rows left col -->
+  <text x="196" y="874" fill="#3a7faa" font-size="11.5">OS</text>
+  <text x="270" y="874" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="874" fill="#b0b8c4" font-size="11.5">Arch Linux x86_64</text>
+
+  <text x="196" y="893" fill="#3a7faa" font-size="11.5">Host</text>
+  <text x="270" y="893" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="893" fill="#b0b8c4" font-size="11.5">AORUS 15 XE4</text>
+
+  <text x="196" y="912" fill="#3a7faa" font-size="11.5">Kernel</text>
+  <text x="270" y="912" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="912" fill="#b0b8c4" font-size="11.5">6.19.14-zen1-1-zen</text>
+
+  <text x="196" y="931" fill="#3a7faa" font-size="11.5">WM</text>
+  <text x="270" y="931" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="931" fill="#b0b8c4" font-size="11.5">Hyprland 0.54.3 (Wayland)</text>
+
+  <text x="196" y="950" fill="#3a7faa" font-size="11.5">Shell</text>
+  <text x="270" y="950" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="950" fill="#b0b8c4" font-size="11.5">bash 5.3.9</text>
+
+  <text x="196" y="969" fill="#3a7faa" font-size="11.5">Terminal</text>
+  <text x="270" y="969" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="969" fill="#b0b8c4" font-size="11.5">kitty 0.46.2  ·  JetBrainsMonoNF 13pt</text>
+
+  <text x="196" y="988" fill="#3a7faa" font-size="11.5">Packages</text>
+  <text x="270" y="988" fill="#383838" font-size="11.5">··</text>
+  <text x="292" y="988" fill="#b0b8c4" font-size="11.5">1908 (pacman)</text>
+
+  <!-- Info rows right col -->
+  <text x="560" y="874" fill="#3a7faa" font-size="11.5">CPU</text>
+  <text x="620" y="874" fill="#383838" font-size="11.5">··</text>
+  <text x="642" y="874" fill="#b0b8c4" font-size="11.5">i7-12700H (20) @ 4.70 GHz</text>
+
+  <text x="560" y="893" fill="#3a7faa" font-size="11.5">GPU</text>
+  <text x="620" y="893" fill="#383838" font-size="11.5">··</text>
+  <text x="642" y="893" fill="#b0b8c4" font-size="11.5">RTX 3070 Ti + Intel Iris Xe</text>
+
+  <text x="560" y="912" fill="#3a7faa" font-size="11.5">Display</text>
+  <text x="620" y="912" fill="#383838" font-size="11.5">··</text>
+  <text x="642" y="912" fill="#b0b8c4" font-size="11.5">2560×1440 · 165 Hz · 15"</text>
+
+  <text x="560" y="931" fill="#3a7faa" font-size="11.5">Memory</text>
+  <text x="620" y="931" fill="#383838" font-size="11.5">··</text>
+  <text x="642" y="931" fill="#b0b8c4" font-size="11.5">8.54 / 15.28 GiB (56%)</text>
+  <rect x="642" y="937" width="200" height="3" rx="1.5" fill="#2a2a2a"/>
+  <rect x="642" y="937" width="112" height="3" rx="1.5" fill="#1793d1" fill-opacity="0.7"/>
+
+  <text x="560" y="955" fill="#3a7faa" font-size="11.5">Disk</text>
+  <text x="620" y="955" fill="#383838" font-size="11.5">··</text>
+  <text x="642" y="955" fill="#b0b8c4" font-size="11.5">135 / 952 GiB · btrfs (14%)</text>
+  <rect x="642" y="961" width="200" height="3" rx="1.5" fill="#2a2a2a"/>
+  <rect x="642" y="961" width="28" height="3" rx="1.5" fill="#1793d1" fill-opacity="0.45"/>
+
+  <text x="560" y="979" fill="#3a7faa" font-size="11.5">Battery</text>
+  <text x="620" y="979" fill="#383838" font-size="11.5">··</text>
+  <circle cx="646" cy="975" r="4" fill="#4ade80"/>
+  <text x="656" y="979" fill="#4ade80" font-size="11.5">100% [AC Connected]</text>
+
+  <!-- Color palette dots -->
+  <circle cx="642" cy="1002" r="6" fill="#0b0e14"/>
+  <circle cx="658" cy="1002" r="6" fill="#1793d1"/>
+  <circle cx="674" cy="1002" r="6" fill="#0f5f9e"/>
+  <circle cx="690" cy="1002" r="6" fill="#2d3748"/>
+  <circle cx="706" cy="1002" r="6" fill="#4a5568"/>
+  <circle cx="722" cy="1002" r="6" fill="#718096"/>
+  <circle cx="738" cy="1002" r="6" fill="#a0aec0"/>
+  <circle cx="754" cy="1002" r="6" fill="#e2e8f0"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- FOOTER                                 -->
+  <!-- ═══════════════════════════════════════ -->
+  <text x="46"  y="1052" fill="#444" font-size="12" font-style="italic">bare metal to browser</text>
+  <text x="934" y="1052" text-anchor="end" fill="#444" font-size="12">Chennai, IN · 2026</text>
+
+  <!-- outer border -->
+  <rect width="980" height="1080" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+</svg>
