@@ -29,24 +29,28 @@ jobs:
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: node scripts/update-github-stats.js
 
-      - name: Check last commit date and push if 10 days have passed
+      - name: Commit and push
         run: |
-          # Find the most recent commit that touched the SVG
-          LAST_COMMIT=$(git log -1 --format="%ct" -- assets/portfolio.svg 2>/dev/null || echo "0")
-          NOW=$(date +%s)
-          DIFF=$(( (NOW - LAST_COMMIT) / 86400 ))
-
           if git diff --quiet -- assets/portfolio.svg; then
-            echo "No changes detected in portfolio.svg — skipping."
+            echo "No changes detected — skipping."
             exit 0
           fi
 
-          if [ "$DIFF" -lt 10 ]; then
-            echo "Last commit to portfolio.svg was $DIFF day(s) ago. Waiting until 10 days have passed."
-            exit 0
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            LAST_COMMIT=$(git log -1 --format="%ct" -- assets/portfolio.svg 2>/dev/null || echo "0")
+            NOW=$(date +%s)
+            DIFF=$(( (NOW - LAST_COMMIT) / 86400 ))
+
+            if [ "$DIFF" -lt 10 ]; then
+              echo "Scheduled run: last commit was $DIFF day(s) ago. Skipping until 10 days have passed."
+              exit 0
+            fi
+
+            echo "Scheduled run: $DIFF day(s) since last commit — pushing."
+          else
+            echo "Manual run — bypassing 10-day check."
           fi
 
-          echo "Last commit was $DIFF day(s) ago — committing and pushing."
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/portfolio.svg
