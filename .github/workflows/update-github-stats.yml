@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -27,12 +29,24 @@ jobs:
           GITHUB_USERNAME: ${{ github.repository_owner }}
         run: node scripts/update-github-stats.js
 
-      - name: Commit and push updates
+      - name: Check last commit date and push if 10 days have passed
         run: |
+          # Find the most recent commit that touched the SVG
+          LAST_COMMIT=$(git log -1 --format="%ct" -- assets/portfolio.svg 2>/dev/null || echo "0")
+          NOW=$(date +%s)
+          DIFF=$(( (NOW - LAST_COMMIT) / 86400 ))
+
           if git diff --quiet -- assets/portfolio.svg; then
-            echo "No stats changes to commit."
+            echo "No changes detected in portfolio.svg — skipping."
             exit 0
           fi
+
+          if [ "$DIFF" -lt 10 ]; then
+            echo "Last commit to portfolio.svg was $DIFF day(s) ago. Waiting until 10 days have passed."
+            exit 0
+          fi
+
+          echo "Last commit was $DIFF day(s) ago — committing and pushing."
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/portfolio.svg
