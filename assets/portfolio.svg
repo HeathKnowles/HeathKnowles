@@ -149,7 +149,7 @@
 
   <!-- Stat card 1: commits -->
   <rect x="46"  y="652" width="278" height="90" rx="8" fill="#2a2a2a" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.75"/>
-  <text id="stats-commits" x="185" y="706" text-anchor="middle" fill="#e0e0e0" font-size="32" font-weight="700">369</text>
+  <text id="stats-commits" x="185" y="706" text-anchor="middle" fill="#e0e0e0" font-size="32" font-weight="700">387</text>
   <text x="185" y="728" text-anchor="middle" fill="#555" font-size="10" letter-spacing="2">COMMITS</text>
 
   <!-- Stat card 2: OSS -->
